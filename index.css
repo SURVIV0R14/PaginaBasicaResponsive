@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+    padding: 0;
+    margin: 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+header .logo {
+    font-weight: bold;
+    color: blue;
+    font-size: 1.5em;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+    gap: 10px 0px;
+}
+
+header a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: bold;
+
+}
+
+header a:hover {
+    color: blue;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url(imagenes/poirierchamp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.info h2 {
+    font-size: 2.7em;
+    padding: 0px 30px;
+}
+
+
+button {
+    background-color: blue;
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.stats .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    text-align: initial;
+    gap: 30px;
+    padding: 200px 10px;
+}
+
+.stats .container-stats-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+.stats .img-container {
+    background-image: url(imagenes/2p.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.stats .container-stats {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+
+.redes-cartas .container {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 100px 10px;
+}
+
+.redes-cartas .container .carta:first-child {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url(imagenes/5p.jpg);
+}
+
+.redes-cartas .container .carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url(imagenes/6p.jpg);
+}
+
+.redes-cartas .container .carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url(imagenes/2p.jpg);
+}
+
+.redes-cartas .carta {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.redes-cartas .morado {
+    background-color: mediumpurple;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.redes-cartas .verde {
+    background-color: green;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.redes-cartas .azul-oscuro {
+    background-color: #171a21;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+
+
+
+
+.redes-cartas h3 {
+    font-size: 2em;
+}
+
+.redes-cartas h2 {
+    font-size: 3em;
+}
+
+.aplicaya .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.5),
+            rgb(0, 0, 0, 0.5)), url(imagenes/10p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 90vh;
+}
+
+.aplicaya h1 {
+    font-size: 3em;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    padding: 30px 50px;
+    background-color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-size: 1.4;
+}
+
+@media (min-width:720px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 30px;
+    }
+
+    header nav {
+        flex-direction: row;
+        gap: 30px;
+        padding: 0;
+        padding-right: 30px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        max-width: none;
+        width: 100%;
+    }
+
+    .redes-cartas .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .redes-cartas .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .redes-cartas .carta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #171a21;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-size: 100% 250px;
+        padding: 50px;
+        margin: 30px;
+        border-radius: 40px;
+        height: 450px;
+        width: 400px;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

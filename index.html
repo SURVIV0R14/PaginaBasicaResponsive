@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVIVOR</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <p class="logo">SURVIVOR</p>
+            <nav>
+                <a href="#info">Sobre mi</a>
+                <a href="#stats">Habilidades</a>
+                <a href="#redes-cartas">Redes</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="info" id="info">
+        <div class="container">
+            <div class="img-container"></div>
+            <h2><span>PERUVIAN</span> PRO PLAYER <span>OF CS2</span></h2>
+            <button id="btnAccede">Accede ya!</button>
+
+            <script>
+                document.getElementById("btnAccede").addEventListener("click", function () {
+                    window.open("https://csstats.gg/player/76561198836587385", "_blank");
+                });
+            </script>
+        </div>
+    </section>
+
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="container-stats-img">
+                <div class="img-container"></div>
+                <h2>SURVIVOR</h2>
+            </div>
+            <div class="container-stats">
+                <h3><span>K/D</span> 1.79 </h3>
+                <h3><span>HLTV RATING</span> 1.66 </h3>
+                <h3><span>WIN RATE</span> 76% </h3>
+                <h3><span>HS%</span> 55% </h3>
+                <h3><span>ADR</span> 109 </h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="redes-cartas" id="redes-cartas">
+        <div class="container">
+            <h2>REDES DE SURVIVOR</h2>
+            <div class="redes">
+                <div class="carta">
+                    <h3>TWITCH DE SURVIVOR</h3>
+                    <a href="https://www.twitch.tv/surviv0r14" target="_blank" class="btn morado">Twitch</a>
+                </div>
+                <div class="carta">
+                    <h3>KICK DE SURVIVOR</h3>
+                    <a href="https://kick.com/poirierof" target="_blank" class="btn verde">Kick</a>
+                </div>
+                <div class="carta">
+                    <h3>STEAM DE SURVIVOR</h3>
+                    <a href="https://steamcommunity.com/profiles/76561198836587385" target="_blank"
+                        class="btn azul-oscuro">Steam</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aplicaya">
+        <div class="container">
+            <h1>¿LISTO PARA CONTRATAR?</h1>
+            <button>APLICA YA!</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&COPY; SURVIVOR</p>
+        </div>
+    </footer>
+</body>
+
+</html>
